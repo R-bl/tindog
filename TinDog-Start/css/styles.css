@@ -58,3 +58,38 @@ h1 {
 
 
 /* Features */
+
+#features {
+    font-family: 'Montserrat-bold';
+}
+
+.col-lg-4 {
+    text-align: center;
+    align-items: center;
+}
+
+.row-features {
+    margin: 10% 0 10%;
+}
+
+h3 {
+    font-size: 1.5rem;
+}
+
+p {
+    font-size: 1rem;
+    color: grey;
+}
+
+.icon-features {
+    color: rgb(247, 160, 144);
+    margin-bottom: 5%;
+}
+
+.icon-features:hover {
+    color: #ff4c68;
+}
+
+.col-lg-4 {
+    padding-bottom: 10%;
+}
