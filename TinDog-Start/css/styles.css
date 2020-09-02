@@ -8,7 +8,7 @@ body {
 }
 
 .container-fluid {
-    padding: 3% 15%;
+    padding: 3% 15% 7%;
 }
 
 
@@ -51,10 +51,20 @@ h1 {
 }
 
 .title-image {
-    margin-left: 10%;
     width: 60%;
     transform: rotate(25deg);
     position: absolute;
+    right: 30%;
+}
+
+@media (max-width:1028px) {
+    #title {
+        text-align: center;
+    }
+    .title-image {
+        position: static;
+        transform: rotate(0deg);
+    }
 }
 
 
@@ -156,4 +166,51 @@ h2 {
 
 .price-col {
     padding: 3% 2%;
+}
+
+
+/* cta */
+
+#cta {
+    background-color: #ff4c68;
+    font-family: 'Ubuntu';
+    color: #fff;
+}
+
+.cta-header {
+    font-size: x-large;
+    font-weight: bold;
+}
+
+.cta-class {
+    margin: 5% auto 5%;
+    text-align: center;
+    align-items: center;
+}
+
+
+/* Footer */
+
+#footer {
+    text-align: center;
+    padding: 5%;
+}
+
+.footer-r {
+    margin: 2%;
+    align-items: center;
+    justify-content: center;
+}
+
+.footer-fa {
+    letter-spacing: 1rem;
+    color: #343a40;
+}
+
+.footer-fa:hover {
+    color: #ff4c68;
+}
+
+.copy {
+    margin-right: 28px;
 }
