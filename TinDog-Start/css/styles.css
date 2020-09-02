@@ -54,6 +54,7 @@ h1 {
     margin-left: 10%;
     width: 60%;
     transform: rotate(25deg);
+    position: absolute;
 }
 
 
@@ -61,6 +62,9 @@ h1 {
 
 #features {
     font-family: 'Montserrat-bold';
+    background-color: #fff;
+    position: relative;
+    z-index: 1;
 }
 
 .col-lg-4 {
@@ -82,7 +86,7 @@ p {
 }
 
 .icon-features {
-    color: rgb(247, 160, 144);
+    color: #ef8172;
     margin-bottom: 5%;
 }
 
@@ -92,4 +96,64 @@ p {
 
 .col-lg-4 {
     padding-bottom: 10%;
+}
+
+
+/* Testimonials */
+
+#testimonials {
+    text-align: center;
+    text-align: center;
+    background-color: #ef8172;
+    color: #fff;
+}
+
+.carousel-item {
+    padding: 7% 15%;
+}
+
+h2 {
+    font-family: 'Montserrat-bold';
+    font-size: 2rem;
+    line-height: 1.5;
+}
+
+.testimonial-image {
+    width: 10%;
+    border-radius: 100%;
+    margin: 20px;
+}
+
+#press {
+    background-color: #ef8172;
+    text-align: center;
+    padding-bottom: 3%;
+}
+
+.press-image {
+    width: 15%;
+    margin: 20px 20px 50px;
+}
+
+
+/* Pricing */
+
+#pricing {
+    padding: 100px;
+    color: grey;
+    text-align: center;
+    align-items: center;
+}
+
+.card-header {
+    background-color: #343a40;
+    color: #fff;
+}
+
+.card-body {
+    line-height: 1;
+}
+
+.price-col {
+    padding: 3% 2%;
 }
